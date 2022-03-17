@@ -1,4 +1,4 @@
 window.onload = () => {
-   let bannerNode = document.querySelector('[alt="www.000webhost.com"]').parentNode.parentNode;
+   let bannerNode = document.querySelector('disclaimer').parentNode.parentNode;
    bannerNode.parentNode.removeChild(bannerNode);
 }
